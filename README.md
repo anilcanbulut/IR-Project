@@ -1,1 +1,4 @@
 # IR-Project
+This projectwhich we have done on behalf of our universityis a project that enables automatic shut-off   of   the air   conditioners   in   the   classrooms   and   rooms   by   using   the   MSP430 microcontroller andaninfrared transmitter sensor to prevent unnecessary operation of the air conditioners.Wehave designed a small circuit boardwhich can be placed to any window, and with the button in the circuitwe take action as if the window is opened or not and close the air conditioner.
+
+*In this project we've controlled air conditioners which use LG infrared protocol system RC5 (Arçelik air conditioners). But the code also contains NEC protocol. Normally Arduino has some special libraries for this kind of purposes but in this project we couldn't work with them. So, we've obtained the oscilloscope resulting signal and builded our own sender signal. 
